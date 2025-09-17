@@ -7,7 +7,7 @@ Route::get('/', function () {
 });
 
 Route::get('/admin/{any?}', function () {
-    return view('admin'); // Admin layout
+    return view('admin');
 })->where('any', '.*');
 
 
